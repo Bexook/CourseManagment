@@ -1,6 +1,6 @@
 TO DO LIST
 - WBS
-- BPMN 2.0
+- BPMN 2.0  (Optional)
     - Process of registration;
     - Process of authorization and authentication;
     - Process of assigning/ changing role for user;
@@ -11,20 +11,24 @@ TO DO LIST
         - Process of testing student;
         - Process for generating automated certificate after course;
 - Architecture of project:
-    - Main microservice:
-        -Student:
-            - Authentication/Authorization/Registration;
-            - Course details overview;
-            - Course registration;
-            - Course attending;
+    - Client microservice:
+        - Student:
+            - Authentication/Authorization/Registration JWT;  WBS: +
+            - Course details overview; WBS: +
+            - Course registration; WBS: +
+            - Course attending; WBS: +
+            - Certificate generation; WBS: +
             - Final testing;
-    - Backoffice:
+    - Backoffice microservice:
         - Admin:
-            - Authentication/Authorization/Registration for admin user Using LDAP;
-            - User role change (creating employees: teacher, admin) ;
-            - User management (update user data, delete user);
+            - Authentication/Authorization/Registration JWT; WBS: +
+            - User role change (creating employees: teacher, admin, student) ; WBS: +
+            - User management (update user data, delete user); WBS: +
         - Teacher:
-            - Creating testing for students based on course (done by teacher);
-            - Creating course data (lessons);
+            - Creating testing for students based on course (done by teacher); WBS: +
+            - Creating course data (lessons); WBS: +
 
 
+
+
+DB start up validation

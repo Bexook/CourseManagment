@@ -1,10 +1,10 @@
-package com.coursemanagment;
+package com.cm.client;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CourseManagmentApplicationTests {
+class CourseManagementApplicationTests {
 
     @Test
     void contextLoads() {
