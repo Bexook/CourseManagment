@@ -36,7 +36,7 @@
         <dependency>
             <groupId>com.cm.common</groupId>
             <artifactId>cm-common</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
@@ -56,5 +56,18 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>artifact-registry</id>
+            <url>https://europe-central2-maven.pkg.dev/hallowed-span-378416/cm-common</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 
 </project>
