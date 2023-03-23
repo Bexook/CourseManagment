@@ -4,8 +4,6 @@ spring:
     url: jdbc:postgresql://localhost:5432/cm
     username: postgres
     password: root
-  jpa:
-    show-sql: true
 
 client-application:
   url: localhost
