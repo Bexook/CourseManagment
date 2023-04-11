@@ -14,7 +14,7 @@
     <name>course-management-client</name>
     <properties>
         <java.version>11</java.version>
-        <cm-common-version>1.0.12-SNAPSHOT</cm-common-version>
+        <cm-common-version>1.0.13-SNAPSHOT</cm-common-version>
     </properties>
     <dependencies>
 
